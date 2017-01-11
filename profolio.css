@@ -1,0 +1,17 @@
+#wholepage{
+    border-radius:10px;
+    height:100%;
+    width:100%;
+    -webkit-animation: wp 4s infinite;
+}
+@-webkit-keyframes wp{
+    0%{
+        border:#00ffff solid 5px;
+    }
+    50%{
+        border:#ff6666 solid 5px;
+    }
+    100%{
+        border:#00ffff solid 5px;
+    }
+}
